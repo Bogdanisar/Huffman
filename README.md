@@ -3,9 +3,15 @@ Tool written in C++ which can be used to compress and decompress a text-file usi
 The file must contain only ASCII characters.
 
 Navigate to containing folder in CMD and run:
+
 g++ -std=c++11 huffman.cpp -o huffman.exe
 
-Usage command: huffman.exe < operation type > < if > < of >
+
+Usage command: 
+
+huffman.exe < operation type > < if > < of >
+
+
 
 Operation type = 1 if compression is desired.
 - < if > = the full name of a local .txt file that is to be compressed.
